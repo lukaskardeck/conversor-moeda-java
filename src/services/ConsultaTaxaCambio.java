@@ -12,7 +12,7 @@ import java.net.http.HttpResponse;
 public class ConsultaTaxaCambio {
 
     public static TaxaMoeda buscarTaxas(Moeda moeda) {
-        URI taxaDeCambio = URI.create("https://v6.exchangerate-api.com/v6/3c697ab8c2eb343ac39aa7a8/latest/" + moeda.toString());
+        URI taxaDeCambio = URI.create("https://v6.exchangerate-api.com/v6/SUA_CHAVE_API/latest/" + moeda.toString());
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(taxaDeCambio)
