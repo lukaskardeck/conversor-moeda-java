@@ -26,8 +26,6 @@ src/
     └── ConversorMoeda.java        # Realiza a conversão de valores entre moedas
 ```
 
-## 🚀 Como executar
-
 ## 🔐 API
 
 Este projeto utiliza a [ExchangeRate-API](https://www.exchangerate-api.com/). Certifique-se de:
